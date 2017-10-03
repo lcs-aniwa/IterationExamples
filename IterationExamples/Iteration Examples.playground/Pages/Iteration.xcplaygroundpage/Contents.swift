@@ -16,6 +16,8 @@ for value in 1...4 {
 }
 sum         // equals 10 at this point
 
+    
+    
 /*:
  ### Skipping values in a range
  The *stride* function can be combined with a *for-in* loop to move through a range of numbers, while also skipping some values.
@@ -41,6 +43,17 @@ for y in stride(from: 0, through: 400, by: 50) {
     canvas
     
 }
+    
+    //Make a loop to draw 10 rectangle woth increasing brigtness
+    
+    canvas.drawShapesWithBorders = false
+    for i in stride(from: 0, through: 500, by: 50) {
+        
+        //Cahgne the color
+        canvas.fillColor = Color (hue: 0, saturation: 100, brightness: i / 5 , alpha: 100)
+        
+        //Draw the rectangle
+        canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: i, width: canvas.width, height: 50)
 /*:
  ### Counting backwards
  You can use a *for-in* loop with the *stride* function to count backwards as well.
@@ -57,4 +70,4 @@ print("Blast off!")
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
  */
-PlaygroundPage.current.liveView = canvas.imageView
+        PlaygroundPage.current.liveView = canvas.imageView }
