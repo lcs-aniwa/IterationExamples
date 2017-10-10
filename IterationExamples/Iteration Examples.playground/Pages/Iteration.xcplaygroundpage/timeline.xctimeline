@@ -2,5 +2,20 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/aniwa/Desktop/Computer%20Science/IterationExamples/IterationExamples/Iteration%20Examples.playground/Pages/Iteration.xcplaygroundpage#CharacterRangeLen=6&amp;CharacterRangeLoc=1420&amp;EndingColumnNumber=11&amp;EndingLineNumber=48&amp;StartingColumnNumber=5&amp;StartingLineNumber=48&amp;Timestamp=529335086.527054"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/aniwa/Desktop/Computer%20Science/IterationExamples/IterationExamples/Iteration%20Examples.playground/Pages/Iteration.xcplaygroundpage#CharacterRangeLen=6&amp;CharacterRangeLoc=1554&amp;EndingColumnNumber=15&amp;EndingLineNumber=52&amp;StartingColumnNumber=9&amp;StartingLineNumber=52&amp;Timestamp=529335086.527218"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/aniwa/Desktop/Computer%20Science/IterationExamples/IterationExamples/Iteration%20Examples.playground/Pages/Iteration.xcplaygroundpage#CharacterRangeLen=11&amp;CharacterRangeLoc=671&amp;EndingColumnNumber=0&amp;EndingLineNumber=15&amp;StartingColumnNumber=11&amp;StartingLineNumber=14&amp;Timestamp=529335086.527331"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
