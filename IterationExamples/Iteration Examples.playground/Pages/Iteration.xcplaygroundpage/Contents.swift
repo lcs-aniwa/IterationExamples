@@ -54,6 +54,7 @@ for y in stride(from: 0, through: 400, by: 50) {
         
         //Draw the rectangle
         canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: i, width: canvas.width, height: 50)
+       
 /*:
  ### Counting backwards
  You can use a *for-in* loop with the *stride* function to count backwards as well.

@@ -14,7 +14,17 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Below this line, try combining a loop and four statements that draw lines to generate the goal
+for x in stride(from: 25, through: 275, by: 50) {
+    x
+    for y in stride(from: 275,through: 25, by: -50) {
+        y
+        canvas.drawEllipse(centreX: x, centreY: y, width: 10, height: 10)
+        
+    }
+
+}
+
+
 
 /*:
  ## Template code
