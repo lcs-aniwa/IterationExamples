@@ -19,10 +19,13 @@ for x in stride(from: 25, through: 275, by: 50) {
     for y in stride(from: 275,through: 25, by: -50) {
         y
         canvas.drawEllipse(centreX: x, centreY: y, width: 10, height: 10)
-        
+        canvas.drawLine(fromX: x-25, fromY: y-25, toX: x+25, toY: y+25)
+        canvas.drawLine(fromX: x-25, fromY: y+25, toX: x+25, toY: y-25)
     }
 
 }
+
+
 
 
 
